@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Rawbolt Games – Studio Game Action</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Big+Shoulders+Display:wght@700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <defs>
+            <symbol id="logo" viewBox="0 0 40 40">
+                <path d="M20 2l15 8.5v19L20 38 5 29.500v-19z" fill="#F2A33A" />
+                <path d="M22.500 9L12 22h7l-2 9 11-14h-7z" fill="#101A21" />
+            </symbol>
+        </defs>
+    </svg>
+
+    <header class="nav">
+        <div class="wrap">
+            <a class="brand" href="#beranda" aria-label="Rawbolt Games, ke beranda"><svg>
+                    <use href="#logo" />
+                </svg>RAWBOLT</a>
+            <button class="burger" id="burger" aria-label="Buka menu"
+                aria-expanded="false"><span></span><span></span><span></span></button>
+            <nav id="menu" aria-label="Navigasi utama">
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#layanan">Produk</a></li>
+                    <li><a href="#keunggulan">Keunggulan</a></li>
+                    <li><a href="#program">Program</a></li>
+                    <li><a href="#tim">Tim</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="beranda">
+            <div class="wrap hero">
+                <div>
+                    <h1>Game aksi<em>tanpa jeda.</em></h1>
+                    <p class="lead">Rawbolt Games membuat game action cepat dan padat untuk PC dan Android. Kami membuka
+                        proses pengembangannya, jadi Anda bisa melihat game kami tumbuh dari prototipe sampai rilis.</p>
+                    <div class="cta"><a class="btn pri" href="#program">Lihat progres</a><a class="btn sec"
+                            href="#layanan">Game kami</a></div>
+                </div>
+                <aside class="build" aria-label="Progres pengembangan">
+                    <small>Sedang dikembangkan</small>
+                    <h3>Ashfall Protocol</h3>
+                    <div class="pct"><span id="count" data-to="62">0</span>%</div>
+                    <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="62"><i
+                            data-w="62"></i></div>
+                    <ul>
+                        <li><span>Fase</span><span>Vertical slice</span></li>
+                        <li><span>Build terakhir</span><span>v0.6.2 alpha</span></li>
+                        <li><span>Target rilis</span><span>Segera hadir</span></li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <section id="tentang">
+            <div class="wrap">
+                <h2>Tentang kami</h2>
+                <div class="about">
+                    <div class="vm">
+                        <p class="lead" style="margin-top:0">Rawbolt Games adalah studio game independen yang fokus pada
+                            satu genre: action. Kami percaya game aksi yang bagus terasa dari detik pertama, lewat
+                            kontrol yang responsif, musuh yang adil, dan ritme pertarungan yang jelas.</p>
+                        <h3 style="margin-top:26px">Visi</h3>
+                        <p>Menjadi studio action game lokal yang dikenal karena kualitas gameplay dan keterbukaan
+                            prosesnya.</p>
+                        <h3>Misi</h3>
+                        <p>Membuat game yang menyenangkan dimainkan, membagikan progres secara rutin, dan melibatkan
+                            pemain sejak tahap awal.</p>
+                    </div>
+                    <div class="facts">
+                        <div class="fact"><b>2025</b>Studio berdiri</div>
+                        <div class="fact"><b>2</b>Game dalam pengembangan</div>
+                        <div class="fact"><b>PC + Android</b>Platform tujuan</div>
+                        <div class="fact"><b>Unity</b>Game engine kami</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="layanan">
+            <div class="wrap">
+                <h2>Produk</h2>
+                <p class="lead">Game kami akan tersedia di Google Play dan Steam. Belum ada yang dirilis, tetapi
+                    keduanya sudah dalam pengembangan.</p>
+                <div class="games">
+                    <article class="game">
+                        <div class="cover c1"><span>Ashfall Protocol</span></div>
+                        <div class="in">
+                            <h3>Ashfall Protocol</h3>
+                            <p>Action shooter top-down. Bertahan di kota yang runtuh, kumpulkan senjata, dan hadapi
+                                gelombang musuh.</p>
+                            <div class="stores">
+                                <button class="store" disabled aria-label="Google Play, segera hadir"><svg
+                                        viewBox="0 0 24 24">
+                                        <path d="M3 2.500v19l10-9.500z" fill="#34A853" />
+                                        <path d="M3 2.500l12.500 7.500-2.500 2z" fill="#4285F4" />
+                                        <path d="M3 21.500l12.500-7.500-2.500-2z" fill="#EA4335" />
+                                        <path d="M15.500 10l5 2-5 2-2.500-2z" fill="#FBBC04" />
+                                    </svg><span><small>Tersedia di</small><b>Google Play</b></span></button>
+                                <button class="store" disabled aria-label="Steam, segera hadir"><svg
+                                        viewBox="0 0 24 24">
+                                        <circle cx="12" cy="12" r="11" fill="#1B2838" />
+                                        <circle cx="15.500" cy="9.500" r="3" fill="none" stroke="#fff"
+                                            stroke-width="1.500" />
+                                        <circle cx="8.500" cy="15.500" r="2" fill="#fff" />
+                                        <path d="M9.500 14l4-3" stroke="#fff" stroke-width="1.500" />
+                                    </svg><span><small>Tersedia di</small><b>Steam</b></span></button>
+                            </div><span class="soon">Coming soon</span>
+                        </div>
+                    </article>
+                    <article class="game">
+                        <div class="cover c2"><span>Iron Tide</span></div>
+                        <div class="in">
+                            <h3>Iron Tide</h3>
+                            <p>Beat 'em up side-scrolling dengan combo cepat dan bos besar di setiap area.</p>
+                            <div class="stores">
+                                <button class="store" disabled aria-label="Google Play, segera hadir"><svg
+                                        viewBox="0 0 24 24">
+                                        <path d="M3 2.500v19l10-9.500z" fill="#34A853" />
+                                        <path d="M3 2.500l12.500 7.500-2.500 2z" fill="#4285F4" />
+                                        <path d="M3 21.500l12.500-7.500-2.500-2z" fill="#EA4335" />
+                                        <path d="M15.500 10l5 2-5 2-2.500-2z" fill="#FBBC04" />
+                                    </svg><span><small>Tersedia di</small><b>Google Play</b></span></button>
+                                <button class="store" disabled aria-label="Steam, segera hadir"><svg
+                                        viewBox="0 0 24 24">
+                                        <circle cx="12" cy="12" r="11" fill="#1B2838" />
+                                        <circle cx="15.500" cy="9.500" r="3" fill="none" stroke="#fff"
+                                            stroke-width="1.500" />
+                                        <circle cx="8.500" cy="15.500" r="2" fill="#fff" />
+                                        <path d="M9.500 14l4-3" stroke="#fff" stroke-width="1.500" />
+                                    </svg><span><small>Tersedia di</small><b>Steam</b></span></button>
+                            </div><span class="soon">Coming soon</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="keunggulan">
+            <div class="wrap">
+                <h2>Keunggulan</h2>
+                <div class="grid4">
+                    <div class="adv"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 2L4 14h7l-1 8 9-12h-7z" />
+                        </svg>
+                        <h3>Kontrol responsif</h3>
+                        <p>Input dibuat terasa instan di keyboard, gamepad, maupun layar sentuh.</p>
+                    </div>
+                    <div class="adv"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="12" rx="2" />
+                            <path d="M8 20h8M12 16v4" />
+                        </svg>
+                        <h3>PC dan Android</h3>
+                        <p>Satu game, dua platform, dengan penyesuaian kontrol di tiap perangkat.</p>
+                    </div>
+                    <div class="adv"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 12a9 9 0 1 0 3-6.700M3 4v5h5" />
+                        </svg>
+                        <h3>Iterasi rutin</h3>
+                        <p>Build baru setiap beberapa minggu, diperbaiki dari masukan pemain.</p>
+                    </div>
+                    <div class="adv"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="9" cy="8" r="3" />
+                            <circle cx="17" cy="9" r="2.500" />
+                            <path d="M3 20c0-3.500 3-6 6-6s6 2.500 6 6M15 14c3 0 6 1.500 6 5" />
+                        </svg>
+                        <h3>Proses terbuka</h3>
+                        <p>Progres dibagikan apa adanya, termasuk fitur yang belum selesai.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="program">
+            <div class="wrap">
+                <h2>Progress</h2>
+                <p class="lead">Progres pengembangan Ashfall Protocol dan kegiatan studio yang sedang berjalan.</p>
+                <div class="devlog">
+                    <div id="steps">
+                        <div class="step">
+                            <div><span>Konsep &amp; desain game</span><span>100%</span></div>
+                            <div class="bar"><i data-w="100"></i></div>
+                        </div>
+                        <div class="step">
+                            <div><span>Prototipe gameplay</span><span>100%</span></div>
+                            <div class="bar"><i data-w="100"></i></div>
+                        </div>
+                        <div class="step">
+                            <div><span>Vertical slice</span><span>70%</span></div>
+                            <div class="bar"><i data-w="70"></i></div>
+                        </div>
+                        <div class="step">
+                            <div><span>Aset visual &amp; animasi</span><span>55%</span></div>
+                            <div class="bar"><i data-w="55"></i></div>
+                        </div>
+                        <div class="step">
+                            <div><span>Audio &amp; musik</span><span>30%</span></div>
+                            <div class="bar"><i data-w="30"></i></div>
+                        </div>
+                        <div class="step">
+                            <div><span>Uji coba &amp; optimasi</span><span>10%</span></div>
+                            <div class="bar"><i data-w="10"></i></div>
+                        </div>
+                    </div>
+                    <ul class="events">
+                        <li><b>Devlog mingguan</b><span>Ringkasan progres, GIF gameplay, dan rencana minggu
+                                depan.</span></li>
+                        <li><b>Playtest tertutup</b><span>Pemain terpilih mencoba build alpha dan mengisi survei.</span>
+                        </li>
+                        <li><b>Game jam internal</b><span>Tim membuat prototipe mekanik baru dalam 48 jam.</span></li>
+                        <li><b>Workshop game dev</b><span>Berbagi proses pembuatan game aksi di kampus dan
+                                komunitas.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="tim">
+            <div class="wrap">
+                <h2>Developer</h2>
+                <div class="team">
+                    <div class="card">
+                        <div class="frame me"><svg width="48" height="48" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                <circle cx="12" cy="8" r="4" />
+                                <path d="M4 21c0-4.500 4-7 8-7s8 2.500 8 7" />
+                            </svg><span>Foto Anda<br><small>images/foto-saya.jpg</small></span><img
+                                src="images/foto-saya.png" alt="Foto founder" onerror="this.remove()"></div>
+                        <div class="info">
+                            <h3>Amadeus Christiano Penyami</h3>
+                            <p class="role">Founder &amp; Developer</p>
+                            <p class="bio">Mendirikan Rawbolt Games dan menangani seluruh proses pembuatan game, mulai
+                                dari desain, pemrograman, sampai perilisan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak">
+            <div class="wrap">
+                <h2>Kontak</h2>
+                <div class="contact">
+                    <ul>
+                        <li><b>Email</b>halo@rawboltgames.id</li>
+                        <li><b>Telepon</b>+62 812-0000-0000</li>
+                        <li><b>Alamat</b>Jakarta, Indonesia</li>
+                        <li><b>Media sosial</b>@rawboltgames</li>
+                    </ul>
+                    <form id="form">
+                        <label>Nama<input required name="n" autocomplete="name"></label>
+                        <label>Email<input required type="email" name="e" autocomplete="email"></label>
+                        <label>Pesan<textarea required rows="4" name="m"></textarea></label>
+                        <button class="btn pri" type="submit">Kirim pesan</button>
+                        <p id="ok" role="status"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <div class="foot">
+                <div><a class="brand" href="#beranda"><svg>
+                            <use href="#logo" />
+                        </svg>RAWBOLT</a>
+                    <p style="margin-top:10px;max-width:34ch">Studio game action yang membuat prosesnya terlihat.</p>
+                </div>
+                <ul>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#layanan">Produk</a></li>
+                    <li><a href="#program">Program</a></li>
+                    <li><a href="#tim">Tim</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="copy">&copy; <span id="yr">2026</span> Rawbolt Games. Seluruh hak cipta dilindungi.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
