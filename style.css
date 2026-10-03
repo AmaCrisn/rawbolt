@@ -634,7 +634,7 @@ nav a:hover {
 
 .frame {
     aspect-ratio: 4/5;
-    border: 2px dashed var(--line);
+    border: 2px solid var(--line);
     border-radius: 6px;
     background: var(--bg);
     display: flex;
